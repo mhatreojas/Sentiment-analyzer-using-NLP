@@ -7,6 +7,8 @@ from selenium.webdriver.chrome.options import Options
 from textblob import TextBlob
 
 # Function to extract Product Title
+
+# Function to extract Product Title
 def get_title(soup):
     try:
         title = soup.find("span", attrs={"id":'productTitle'})
